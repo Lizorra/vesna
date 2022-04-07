@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
 import putin from './img/putin.jpg';
-import deep from './img/deep.jpeg';
-import drink from './img/drink.jpg';
-import girls from './img/girls.jpeg';
-import mount from './img/mount.jpeg';
-import nigger from './img/nigger.jpeg';
-import rest from './img/rest.jpeg';
-import what from './img/what.jpeg';
 import publ from './img/publ.png';
 import mar from './img/mar.png';
 import vid from './img/vid.png';
