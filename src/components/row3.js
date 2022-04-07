@@ -18,6 +18,10 @@ export function row3 () {
                 <img src={mar} alt="..."/>
                 </div>
                 <span className='publicationsVideosMarks'> <b>ОТМЕТКИ</b></span>
+                <div>
+                <img src={mar} alt="..."/>
+                </div>
+                <span className='publicationsVideosMarks'> <b>ОТМЕТКИ</b></span>
         </div>
     )
 }
