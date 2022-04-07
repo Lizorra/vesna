@@ -13,7 +13,14 @@ import vid from './img/vid.png';
 import rosgramm from './img/rosgramm.png';
 import './App.css';
 import Gallery from './components/Gallery';
+import { PhotoGallery } from './components/Gallery';
+import row3 from './components/row3';
 
+const allImages = [
+    [what, mar, putin],
+    [drink, mar, vid],
+    [rosgramm, putin]
+]
 
 function PutinOption ({ activity }) {
   return <span className='storyName1'><b>{activity}</b></span>
@@ -128,23 +135,11 @@ function App () {
             </div>
             <div className='storyDescription'>
               {renderActivities()}
-            </div>
+            </div>d
             <hr className='line'/>
-            <div className='row3'>
-              <div>
-                <img src={publ} />
-              </div>
-                <span className='publicationsVideosMarks'> <b>ПУБЛИКАЦИИ</b></span>
-              <div>
-                <img src={vid} />
-              </div>
-                <span className='publicationsVideosMarks'> <b>ВИДЕО</b></span>
-                <div>
-                <img src={mar} />
-              </div>
-                <span className='publicationsVideosMarks'> <b>ОТМЕТКИ</b></span>
-            </div>
+            <row3 />
             <Gallery />
+            <PhotoGallery images={allImages} />
            </div>  
   );
 } 
