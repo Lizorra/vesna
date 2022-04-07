@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
 import putin from './img/putin.jpg';
 import publ from './img/publ.png';
+import what from './img/what.png'
 import mar from './img/mar.png';
 import vid from './img/vid.png';
 import rosgramm from './img/rosgramm.png';
 import './App.css';
 import Gallery from './components/Gallery';
 import { PhotoGallery } from './components/Gallery';
-import row3 from './components/row3';
+import Row3 from './components/row3';
 
 const allImages = [
     [what, mar, putin],
@@ -130,7 +131,7 @@ function App () {
               {renderActivities()}
             </div>d
             <hr className='line'/>
-            <row3 />
+            <Row3 />
             <Gallery />
             <PhotoGallery images={allImages} />
            </div>  
